@@ -6,7 +6,7 @@ import Main from './components/Main'
 
 function App() {
 
-  let myData = [{hej:"Test"}];
+  //Exempel på data som ska skickas med props
 
   return (
     <>
