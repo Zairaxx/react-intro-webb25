@@ -1,16 +1,14 @@
 import './App.css'
+import Header from './components/Header';
 import TodoList from './components/TodoList'
-
 function App() {
 
-  let heading = "React Intro - WEBB25";
-  let library = "React";
+   const todos = ["Städa","Plugga React","Meditera"]
 
   return (
     <>
-      <h1>{heading}</h1>
-      <h2>{library} är det populäraste JS-biblioteket!</h2>
-      <TodoList/>
+      <Header data={todos}/>
+      <TodoList data={todos}/>
     </>
   )
 }
