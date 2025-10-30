@@ -40,3 +40,23 @@
 .read-the-docs {
   color: #888;
 }
+
+
+div.flex {
+  display:flex;
+  justify-content: space-around;
+}
+
+.flex main {
+  width:75%;
+}
+
+main {
+  background:lightseagreen;
+  color:black;
+}
+
+aside {
+  background:peachpuff;
+  color: black;
+}

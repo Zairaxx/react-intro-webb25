@@ -1,16 +1,21 @@
 import './App.css'
-import TodoList from './components/TodoList'
+import Aside from './components/Aside'
+import {Footer} from './components/Footer'
+import Header from './components/Header'
+import Main from './components/Main'
 
 function App() {
 
-  let heading = "React Intro - WEBB25";
-  let library = "React";
+  let myData = [{hej:"Test"}];
 
   return (
     <>
-      <h1>{heading}</h1>
-      <h2>{library} är det populäraste JS-biblioteket!</h2>
-      <TodoList/>
+      <Header/>
+      <div className="flex">
+        <Main/>
+        <Aside/>
+      </div>
+      <Footer/>
     </>
   )
 }
